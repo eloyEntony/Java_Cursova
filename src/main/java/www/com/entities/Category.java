@@ -19,7 +19,7 @@ public class Category {
     private List<Product> products;
 
     @ManyToMany(mappedBy = "categories")
-    private List<Brand> brands = new ArrayList<Brand>();
+    private List<Brand> brands;
 
     @ManyToOne //(fetch = FetchType.LAZY)
     @JoinColumn(name="catalog_id", referencedColumnName="id",nullable = false)
@@ -27,6 +27,21 @@ public class Category {
 
 
     public Category() {
+        this.products = new ArrayList<>();
+        this.brands = new ArrayList<>();
+    }
+
+    public Category(String name) {
+        this.name = name;
+        this.products = new ArrayList<>();
+        this.brands = new ArrayList<>();
+    }
+
+    public Category(String name, Catalog catalog) {
+        this.name = name;
+        this.catalog = catalog;
+        this.products = new ArrayList<>();
+        this.brands = new ArrayList<>();
     }
 
     public int getId() {

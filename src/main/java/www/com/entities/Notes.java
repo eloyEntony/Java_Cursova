@@ -19,5 +19,38 @@ public class Notes {
 //    private Product product;
 
     @ManyToMany(mappedBy="notes")
-    private List<Product> products = new ArrayList<Product>();
+    private List<Product> products;
+
+    public Notes() {
+        this.products = new ArrayList<>();
+    }
+
+    public Notes(String name) {
+        this.name = name;
+        this.products = new ArrayList<>();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
+    }
 }

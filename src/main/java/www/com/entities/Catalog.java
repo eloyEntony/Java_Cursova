@@ -15,9 +15,15 @@ public class Catalog {
     private String name;
 
     @OneToMany(mappedBy="id")//, fetch = FetchType.LAZY)
-    private List<Category> categories = new ArrayList<Category>();
+    private List<Category> categories;
 
     public Catalog() {
+        this.categories = new ArrayList<>();
+    }
+
+    public Catalog(String name) {
+        this.name = name;
+        this.categories = new ArrayList<>();
     }
 
     public int getId() {

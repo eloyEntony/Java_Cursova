@@ -18,16 +18,24 @@ public class Brand {
 
     @OneToMany(mappedBy = "id")//, fetch = FetchType.LAZY)
     //@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-    private List<Product> products = new ArrayList<Product>();
+    private List<Product> products;
 
     @ManyToMany(cascade=CascadeType.MERGE)
     @JoinTable(
             name="brand_category",
                 joinColumns={@JoinColumn(name="BRAND_ID", referencedColumnName="id")},
             inverseJoinColumns={@JoinColumn(name="CATEGORY_ID", referencedColumnName="id")})
-    private List<Category> categories = new ArrayList<Category>();
+    private List<Category> categories;
 
     public Brand() {
+        this.categories = new ArrayList<>();
+        this.products = new ArrayList<>();
+    }
+
+    public Brand(String name) {
+        this.name = name;
+        this.products = new ArrayList<>();
+        this.categories = new ArrayList<>();
     }
 
     public int getId() {

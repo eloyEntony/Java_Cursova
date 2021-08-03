@@ -15,6 +15,38 @@ public class Product_Details {
     private String name;
 
     @ElementCollection
-    private List<String> value  = new ArrayList<String>();
+    private List<String> value;
 
+    public Product_Details() {
+        this.value = new ArrayList<>();
+    }
+
+    public Product_Details(String name) {
+        this.name = name;
+        this.value = new ArrayList<>();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<String> getValue() {
+        return value;
+    }
+
+    public void setValue(List<String> value) {
+        this.value = value;
+    }
 }

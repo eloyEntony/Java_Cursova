@@ -39,7 +39,7 @@ public class Product {
             name="products_details",
             joinColumns={@JoinColumn(name="PRODUCT_ID", referencedColumnName="id")},
             inverseJoinColumns={@JoinColumn(name="DETAILS_ID", referencedColumnName="id")})
-    private List<Product_Details> details = new ArrayList<Product_Details>();
+    private List<Product_Details> details;
 
 
 
@@ -53,7 +53,7 @@ public class Product {
 
 
     @OneToMany(targetEntity=Product_Images.class, mappedBy="product", fetch = FetchType.LAZY)
-    private List<Product_Images> images = new ArrayList<Product_Images>();
+    private List<Product_Images> images;
 
 
     @ManyToMany(cascade=CascadeType.MERGE)
@@ -61,14 +61,36 @@ public class Product {
             name="tblProductNotes",
             joinColumns={@JoinColumn(name="PRODUCT_ID", referencedColumnName="id")},
             inverseJoinColumns={@JoinColumn(name="NOTE_ID", referencedColumnName="id")})
-    private List<Notes> notes = new ArrayList<Notes>();
+    private List<Notes> notes;
 
 
     public Product(String title) {
         this.title = title;
+        this.details = new ArrayList<>();
+        this.notes = new ArrayList<>();
+        this.images = new ArrayList<>();
     }
 
     public Product() {
+        this.details = new ArrayList<>();
+        this.notes = new ArrayList<>();
+        this.images = new ArrayList<>();
+    }
+
+    public Product(String title, String description, String link, float price, float sale_price, float discount, boolean availability, Brand brand, Category category) {
+        this.title = title;
+        this.description = description;
+        this.link = link;
+        this.price = price;
+        this.sale_price = sale_price;
+        this.discount = discount;
+        this.availability = availability;
+        this.brand = brand;
+        this.category = category;
+
+        this.details = new ArrayList<>();
+        this.notes = new ArrayList<>();
+        this.images = new ArrayList<>();
     }
 
     public int getId() {

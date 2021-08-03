@@ -23,5 +23,51 @@ public class Order {
     private LocalDateTime modifiedAt;
 
     @OneToMany(targetEntity=Product_In_Cart.class, mappedBy="product", fetch = FetchType.LAZY)
-    private List<Product_In_Cart> products = new ArrayList<Product_In_Cart>();
+    private List<Product_In_Cart> products;
+
+
+    public Order() {
+        this.IsExecuted = false;
+        this.products = new ArrayList<>();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public boolean isExecuted() {
+        return IsExecuted;
+    }
+
+    public void setExecuted(boolean executed) {
+        IsExecuted = executed;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public LocalDateTime getModifiedAt() {
+        return modifiedAt;
+    }
+
+    public void setModifiedAt(LocalDateTime modifiedAt) {
+        this.modifiedAt = modifiedAt;
+    }
+
+    public List<Product_In_Cart> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product_In_Cart> products) {
+        this.products = products;
+    }
 }
