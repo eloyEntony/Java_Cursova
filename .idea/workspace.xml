@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d049910c-22ac-42ab-abe1-71652b9c7c03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/controllers/api/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/controllers/api/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/controllers/api/CatalogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/controllers/api/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/controllers/api/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Catalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Notes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/PasswordResetToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Payment_Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Product_Details.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Product_Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Product_In_Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Shipping_Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/Total_Check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/repositories/PasswordResetTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/service/implementation/EmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/www/com/service/implementation/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/controllers/api/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/controllers/api/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/controllers/api/CatalogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/controllers/api/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/controllers/api/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Catalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Notes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Payment_Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Product_Details.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Product_Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Product_In_Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Shipping_Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/entities/Total_Check.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/repositories/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/www/com/service/ProductServiceImpl.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wO7PqIdnKPYip07pDTrdz1Ithe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/back" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d049910c-22ac-42ab-abe1-71652b9c7c03" name="Changes" comment="" />
+      <created>1628317766987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628317766987</updated>
+      <workItem from="1628317768030" duration="41000" />
+    </task>
+    <servers />
+  </component>
+</project>
